@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA94F6CEBBA1E23E7D2F66A /* Pods_PlotARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5B6F472547DBC30C864CF9 /* Pods_PlotARTests.framework */; };
+		49E1AA604DD3EE7378F74F91 /* Pods_PlotAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D132029614D4C5DBD4390A /* Pods_PlotAR.framework */; };
+		B31CEEE31FE5ABF200DDD552 /* smi_choco.json in Resources */ = {isa = PBXBuildFile; fileRef = B32C88161F73EDE70090944F /* smi_choco.json */; };
+		B33D8367214B18B8004ED379 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8366214B18B8004ED379 /* ScannerViewController.swift */; };
+		B34937FC22CD6E6C0061E958 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34937FB22CD6E6C0061E958 /* Starscream.framework */; };
+		B390059422D68AC400B4936D /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B390059322D68AC400B4936D /* Server.swift */; };
+		B39247B022CEACA400545E5F /* DatasetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39247AF22CEACA400545E5F /* DatasetHandler.swift */; };
+		B3BC10E81F73139F00CC9ADE /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC10E71F73139F00CC9ADE /* Dataset.swift */; };
+		B3D2C2C01F722018009B73A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2C2BF1F722018009B73A7 /* AppDelegate.swift */; };
+		B3D2C2C41F722018009B73A7 /* DatasetARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2C2C31F722018009B73A7 /* DatasetARViewController.swift */; };
+		B3D2C2C71F722018009B73A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2C2C51F722018009B73A7 /* Main.storyboard */; };
+		B3D2C2C91F722018009B73A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D2C2C81F722018009B73A7 /* Assets.xcassets */; };
+		B3D2C2CC1F722018009B73A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D2C2CA1F722018009B73A7 /* LaunchScreen.storyboard */; };
+		B3D2C2D71F722019009B73A7 /* PlotARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2C2D61F722019009B73A7 /* PlotARTests.swift */; };
+		B3D2C2E21F722019009B73A7 /* PlotARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2C2E11F722019009B73A7 /* PlotARUITests.swift */; };
+		B3EF74C01FE719F200097DA0 /* Dataset3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF74BF1FE719F200097DA0 /* Dataset3DViewController.swift */; };
+		B3EF74C21FE71A0E00097DA0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF74C11FE71A0E00097DA0 /* Util.swift */; };
+		B3F627801FEA67E50063D06E /* PLZ.json in Resources */ = {isa = PBXBuildFile; fileRef = B3F6277F1FEA67E50063D06E /* PLZ.json */; };
+		B3F6C9BD1FE6A00900146745 /* DatasetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F6C9BC1FE6A00900146745 /* DatasetTableViewController.swift */; };
+		B3F6C9BF1FE6A86600146745 /* DatasetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F6C9BE1FE6A86600146745 /* DatasetTableViewCell.swift */; };
+		B3FE3ABB214C6C3800D73459 /* DatasetVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE3ABA214C6C3800D73459 /* DatasetVRViewController.swift */; };
+		B3FE3AC1214D015A00D73459 /* DatasetVRRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE3AC0214D015A00D73459 /* DatasetVRRenderer.swift */; };
+		D85FAC1BC71D86DC1555ED72 /* Pods_PlotARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FB70C55267E12B74B8DC4 /* Pods_PlotARUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D2C2D31F722019009B73A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D2C2B41F722018009B73A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D2C2BB1F722018009B73A7;
+			remoteInfo = PlotAR;
+		};
+		B3D2C2DE1F722019009B73A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D2C2B41F722018009B73A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D2C2BB1F722018009B73A7;
+			remoteInfo = PlotAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173FB70C55267E12B74B8DC4 /* Pods_PlotARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlotARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31719CD7488E40DDC7255405 /* Pods-PlotAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlotAR/Pods-PlotAR.debug.xcconfig"; sourceTree = "<group>"; };
+		3265DBD28271F41839697CDF /* Pods-PlotARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlotARTests/Pods-PlotARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5B6F472547DBC30C864CF9 /* Pods_PlotARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlotARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E4B3522C67EE1E407C533C /* Pods-PlotARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlotARUITests/Pods-PlotARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		996349F2852CA048B388232D /* Pods-PlotARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlotARUITests/Pods-PlotARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B32C88161F73EDE70090944F /* smi_choco.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = smi_choco.json; sourceTree = "<group>"; };
+		B33D8366214B18B8004ED379 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		B34937FB22CD6E6C0061E958 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B390059322D68AC400B4936D /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		B39247AB22CEA07100545E5F /* PlotAR-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlotAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		B39247AF22CEACA400545E5F /* DatasetHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetHandler.swift; sourceTree = "<group>"; };
+		B3BC10E71F73139F00CC9ADE /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		B3D2C2BC1F722018009B73A7 /* PlotAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2C2BF1F722018009B73A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D2C2C31F722018009B73A7 /* DatasetARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetARViewController.swift; sourceTree = "<group>"; };
+		B3D2C2C61F722018009B73A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D2C2C81F722018009B73A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D2C2CB1F722018009B73A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D2C2CD1F722018009B73A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D2C2D21F722019009B73A7 /* PlotARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2C2D61F722019009B73A7 /* PlotARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotARTests.swift; sourceTree = "<group>"; };
+		B3D2C2D81F722019009B73A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D2C2DD1F722019009B73A7 /* PlotARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2C2E11F722019009B73A7 /* PlotARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotARUITests.swift; sourceTree = "<group>"; };
+		B3D2C2E31F722019009B73A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EF74BF1FE719F200097DA0 /* Dataset3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset3DViewController.swift; sourceTree = "<group>"; };
+		B3EF74C11FE71A0E00097DA0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		B3F6277F1FEA67E50063D06E /* PLZ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PLZ.json; sourceTree = "<group>"; };
+		B3F6C9BC1FE6A00900146745 /* DatasetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetTableViewController.swift; sourceTree = "<group>"; };
+		B3F6C9BE1FE6A86600146745 /* DatasetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetTableViewCell.swift; sourceTree = "<group>"; };
+		B3FE3ABA214C6C3800D73459 /* DatasetVRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetVRViewController.swift; sourceTree = "<group>"; };
+		B3FE3AC0214D015A00D73459 /* DatasetVRRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetVRRenderer.swift; sourceTree = "<group>"; };
+		C0D132029614D4C5DBD4390A /* Pods_PlotAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlotAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E24985EAF465F29755CAFF /* Pods-PlotARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlotARTests/Pods-PlotARTests.release.xcconfig"; sourceTree = "<group>"; };
+		F25527A9CA0C286B7D264C02 /* Pods-PlotAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlotAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlotAR/Pods-PlotAR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D2C2B91F722018009B73A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34937FC22CD6E6C0061E958 /* Starscream.framework in Frameworks */,
+				49E1AA604DD3EE7378F74F91 /* Pods_PlotAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2CF1F722019009B73A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA94F6CEBBA1E23E7D2F66A /* Pods_PlotARTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2DA1F722019009B73A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85FAC1BC71D86DC1555ED72 /* Pods_PlotARUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CF9C4110675A2D2DA8D0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B34937FB22CD6E6C0061E958 /* Starscream.framework */,
+				C0D132029614D4C5DBD4390A /* Pods_PlotAR.framework */,
+				4D5B6F472547DBC30C864CF9 /* Pods_PlotARTests.framework */,
+				173FB70C55267E12B74B8DC4 /* Pods_PlotARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D2C2B31F722018009B73A7 = {
+			isa = PBXGroup;
+			children = (
+				B3D2C2BE1F722018009B73A7 /* PlotAR */,
+				B3D2C2D51F722019009B73A7 /* PlotARTests */,
+				B3D2C2E01F722019009B73A7 /* PlotARUITests */,
+				B3D2C2BD1F722018009B73A7 /* Products */,
+				CFBD70D45CDB0A630C4C663F /* Pods */,
+				24CF9C4110675A2D2DA8D0AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D2C2BD1F722018009B73A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2C2BC1F722018009B73A7 /* PlotAR.app */,
+				B3D2C2D21F722019009B73A7 /* PlotARTests.xctest */,
+				B3D2C2DD1F722019009B73A7 /* PlotARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D2C2BE1F722018009B73A7 /* PlotAR */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC10E71F73139F00CC9ADE /* Dataset.swift */,
+				B390059322D68AC400B4936D /* Server.swift */,
+				B39247AF22CEACA400545E5F /* DatasetHandler.swift */,
+				B3D2C2C31F722018009B73A7 /* DatasetARViewController.swift */,
+				B3FE3ABA214C6C3800D73459 /* DatasetVRViewController.swift */,
+				B3EF74BF1FE719F200097DA0 /* Dataset3DViewController.swift */,
+				B3FE3AC0214D015A00D73459 /* DatasetVRRenderer.swift */,
+				B3F6C9BC1FE6A00900146745 /* DatasetTableViewController.swift */,
+				B3F6C9BE1FE6A86600146745 /* DatasetTableViewCell.swift */,
+				B33D8366214B18B8004ED379 /* ScannerViewController.swift */,
+				B3EF74BE1FE7163600097DA0 /* datasets */,
+				B3D2C2C51F722018009B73A7 /* Main.storyboard */,
+				B3D2C2CD1F722018009B73A7 /* Info.plist */,
+				B3D2C2BF1F722018009B73A7 /* AppDelegate.swift */,
+				B3EF74C11FE71A0E00097DA0 /* Util.swift */,
+				B39247AB22CEA07100545E5F /* PlotAR-Bridging-Header.h */,
+				B3D2C2CA1F722018009B73A7 /* LaunchScreen.storyboard */,
+				B3D2C2C81F722018009B73A7 /* Assets.xcassets */,
+			);
+			path = PlotAR;
+			sourceTree = "<group>";
+		};
+		B3D2C2D51F722019009B73A7 /* PlotARTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2C2D61F722019009B73A7 /* PlotARTests.swift */,
+				B3D2C2D81F722019009B73A7 /* Info.plist */,
+			);
+			path = PlotARTests;
+			sourceTree = "<group>";
+		};
+		B3D2C2E01F722019009B73A7 /* PlotARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D2C2E11F722019009B73A7 /* PlotARUITests.swift */,
+				B3D2C2E31F722019009B73A7 /* Info.plist */,
+			);
+			path = PlotARUITests;
+			sourceTree = "<group>";
+		};
+		B3EF74BE1FE7163600097DA0 /* datasets */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6277F1FEA67E50063D06E /* PLZ.json */,
+				B32C88161F73EDE70090944F /* smi_choco.json */,
+			);
+			path = datasets;
+			sourceTree = "<group>";
+		};
+		CFBD70D45CDB0A630C4C663F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31719CD7488E40DDC7255405 /* Pods-PlotAR.debug.xcconfig */,
+				F25527A9CA0C286B7D264C02 /* Pods-PlotAR.release.xcconfig */,
+				3265DBD28271F41839697CDF /* Pods-PlotARTests.debug.xcconfig */,
+				C7E24985EAF465F29755CAFF /* Pods-PlotARTests.release.xcconfig */,
+				89E4B3522C67EE1E407C533C /* Pods-PlotARUITests.debug.xcconfig */,
+				996349F2852CA048B388232D /* Pods-PlotARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D2C2BB1F722018009B73A7 /* PlotAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2C2E61F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotAR" */;
+			buildPhases = (
+				69CD6C02925417F93626AFB6 /* [CP] Check Pods Manifest.lock */,
+				B3D2C2B81F722018009B73A7 /* Sources */,
+				B3D2C2B91F722018009B73A7 /* Frameworks */,
+				B3D2C2BA1F722018009B73A7 /* Resources */,
+				01A427FEBEB6052B2FB17E14 /* [CP] Embed Pods Frameworks */,
+				83F86A13E115252A82F566F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlotAR;
+			productName = PlotAR;
+			productReference = B3D2C2BC1F722018009B73A7 /* PlotAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D2C2D11F722019009B73A7 /* PlotARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2C2E91F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotARTests" */;
+			buildPhases = (
+				617B54107F88D0E2269A4CF4 /* [CP] Check Pods Manifest.lock */,
+				B3D2C2CE1F722019009B73A7 /* Sources */,
+				B3D2C2CF1F722019009B73A7 /* Frameworks */,
+				B3D2C2D01F722019009B73A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D2C2D41F722019009B73A7 /* PBXTargetDependency */,
+			);
+			name = PlotARTests;
+			productName = PlotARTests;
+			productReference = B3D2C2D21F722019009B73A7 /* PlotARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D2C2DC1F722019009B73A7 /* PlotARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D2C2EC1F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotARUITests" */;
+			buildPhases = (
+				318525F4A989039A95208DD7 /* [CP] Check Pods Manifest.lock */,
+				B3D2C2D91F722019009B73A7 /* Sources */,
+				B3D2C2DA1F722019009B73A7 /* Frameworks */,
+				B3D2C2DB1F722019009B73A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D2C2DF1F722019009B73A7 /* PBXTargetDependency */,
+			);
+			name = PlotARUITests;
+			productName = PlotARUITests;
+			productReference = B3D2C2DD1F722019009B73A7 /* PlotARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D2C2B41F722018009B73A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Philipp Thomann";
+				TargetAttributes = {
+					B3D2C2BB1F722018009B73A7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B3D2C2D11F722019009B73A7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3D2C2BB1F722018009B73A7;
+					};
+					B3D2C2DC1F722019009B73A7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3D2C2BB1F722018009B73A7;
+					};
+				};
+			};
+			buildConfigurationList = B3D2C2B71F722018009B73A7 /* Build configuration list for PBXProject "PlotAR" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D2C2B31F722018009B73A7;
+			productRefGroup = B3D2C2BD1F722018009B73A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D2C2BB1F722018009B73A7 /* PlotAR */,
+				B3D2C2D11F722019009B73A7 /* PlotARTests */,
+				B3D2C2DC1F722019009B73A7 /* PlotARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D2C2BA1F722018009B73A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31CEEE31FE5ABF200DDD552 /* smi_choco.json in Resources */,
+				B3D2C2CC1F722018009B73A7 /* LaunchScreen.storyboard in Resources */,
+				B3D2C2C91F722018009B73A7 /* Assets.xcassets in Resources */,
+				B3F627801FEA67E50063D06E /* PLZ.json in Resources */,
+				B3D2C2C71F722018009B73A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2D01F722019009B73A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2DB1F722019009B73A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A427FEBEB6052B2FB17E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		318525F4A989039A95208DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlotARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617B54107F88D0E2269A4CF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlotARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CD6C02925417F93626AFB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlotAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83F86A13E115252A82F566F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlotAR/Pods-PlotAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D2C2B81F722018009B73A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FE3ABB214C6C3800D73459 /* DatasetVRViewController.swift in Sources */,
+				B3FE3AC1214D015A00D73459 /* DatasetVRRenderer.swift in Sources */,
+				B3F6C9BD1FE6A00900146745 /* DatasetTableViewController.swift in Sources */,
+				B3D2C2C41F722018009B73A7 /* DatasetARViewController.swift in Sources */,
+				B3EF74C01FE719F200097DA0 /* Dataset3DViewController.swift in Sources */,
+				B3F6C9BF1FE6A86600146745 /* DatasetTableViewCell.swift in Sources */,
+				B3EF74C21FE71A0E00097DA0 /* Util.swift in Sources */,
+				B3BC10E81F73139F00CC9ADE /* Dataset.swift in Sources */,
+				B33D8367214B18B8004ED379 /* ScannerViewController.swift in Sources */,
+				B3D2C2C01F722018009B73A7 /* AppDelegate.swift in Sources */,
+				B390059422D68AC400B4936D /* Server.swift in Sources */,
+				B39247B022CEACA400545E5F /* DatasetHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2CE1F722019009B73A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2C2D71F722019009B73A7 /* PlotARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D2C2D91F722019009B73A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D2C2E21F722019009B73A7 /* PlotARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D2C2D41F722019009B73A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D2C2BB1F722018009B73A7 /* PlotAR */;
+			targetProxy = B3D2C2D31F722019009B73A7 /* PBXContainerItemProxy */;
+		};
+		B3D2C2DF1F722019009B73A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D2C2BB1F722018009B73A7 /* PlotAR */;
+			targetProxy = B3D2C2DE1F722019009B73A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D2C2C51F722018009B73A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D2C2C61F722018009B73A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D2C2CA1F722018009B73A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D2C2CB1F722018009B73A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D2C2E41F722019009B73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D2C2E51F722019009B73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D2C2E71F722019009B73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31719CD7488E40DDC7255405 /* Pods-PlotAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.d-one.PlotAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlotAR/PlotAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D2C2E81F722019009B73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25527A9CA0C286B7D264C02 /* Pods-PlotAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.d-one.PlotAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlotAR/PlotAR-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3D2C2EA1F722019009B73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3265DBD28271F41839697CDF /* Pods-PlotARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d1-solutions.PlotARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotAR.app/PlotAR";
+			};
+			name = Debug;
+		};
+		B3D2C2EB1F722019009B73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E24985EAF465F29755CAFF /* Pods-PlotARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d1-solutions.PlotARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotAR.app/PlotAR";
+			};
+			name = Release;
+		};
+		B3D2C2ED1F722019009B73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E4B3522C67EE1E407C533C /* Pods-PlotARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d1-solutions.PlotARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlotAR;
+			};
+			name = Debug;
+		};
+		B3D2C2EE1F722019009B73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996349F2852CA048B388232D /* Pods-PlotARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP9Q6QS5W5;
+				INFOPLIST_FILE = PlotARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d1-solutions.PlotARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlotAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D2C2B71F722018009B73A7 /* Build configuration list for PBXProject "PlotAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2C2E41F722019009B73A7 /* Debug */,
+				B3D2C2E51F722019009B73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2C2E61F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2C2E71F722019009B73A7 /* Debug */,
+				B3D2C2E81F722019009B73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2C2E91F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2C2EA1F722019009B73A7 /* Debug */,
+				B3D2C2EB1F722019009B73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D2C2EC1F722019009B73A7 /* Build configuration list for PBXNativeTarget "PlotARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D2C2ED1F722019009B73A7 /* Debug */,
+				B3D2C2EE1F722019009B73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D2C2B41F722018009B73A7 /* Project object */;
+}
