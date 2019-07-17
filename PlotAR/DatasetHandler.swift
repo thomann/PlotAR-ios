@@ -39,16 +39,37 @@ class DatasetHandler {
         dataNode.name = "DataNode"
         //        let theData = Data().data
         if let theData = dataset?.data {
+            var i = -1
             for item in theData {
+                i += 1
                 if item.count < 3 {
                     continue
                 }
-                let cubeGeometry = SCNSphere(radius: 0.002)
+                
+                let cubeGeometry: SCNGeometry
+                var size = 1.0
+                if let label = self.dataset?.label {
+                    let textGeometry = SCNText(string: label[i], extrusionDepth: 2.0)
+                    textGeometry.font = UIFont (name: "Helvetica Neue", size: 10)
+                    // looks nice but has a weird problem with letter 'e'???
+//                    textGeometry.chamferRadius = 0.5
+                    cubeGeometry = textGeometry
+                    size *= 0.0015
+                    
+                } else {
+                   cubeGeometry = SCNSphere(radius: 0.002)
+                }
+                if let thesize = self.dataset?.size {
+                    size *= thesize[i]
+                }
                 let cubeNode = SCNNode(geometry: cubeGeometry)
                 cubeNode.position = SCNVector3(x: Float(item[0]/10.0), y: Float(item[2]/10.0)-0.2, z: -Float(item[1])/10.0-1)
                 //            cubeNode.pivot = SCNMatrix4MakeTranslation(-Float(item[0])+6, -Float(item[1])+3, -Float(item[2])+7.5)
                 //print(item[3]==1.0)
-                switch (item.count >= 4 ? item[3] : 1.0 ).truncatingRemainder(dividingBy: 3.0) {
+                cubeNode.scale = SCNVector3(size, size, size)
+                //let col: Int
+                let col = self.dataset?.col?[i] ?? (item.count >= 4 ? item[3] : 1.0 )
+                switch col.truncatingRemainder(dividingBy: 3.0) {
                 case 2.0:
                     cubeGeometry.materials = [blueMaterial]
                 case 0.0:
@@ -155,22 +176,8 @@ class DatasetHandler {
     var speed: Float = 1.0
     
     func handleKeyStroke(_ msg: String) {
-        if(msg == "r"){
-            // we need to close the websocket, else on Chrome (Android/Linux/macOS)
-            // this somehow backfires and httpuv in the R-session crashes with segfault
-            //            if(ws != nil){
-            //                closeWebSocket();
-            //                location.reload(true);
-            //            }else{
-            //                location.reload(true);
-            //            }
-            refreshData()
-            return;
-        }else if(msg == "reload_data" || msg == "x" ){
+        if msg == "r" || msg == "reload_data" || msg == "x" {
             refreshData();
-            // }else if(msg == "c"){
-            //   websocket.close();
-            //   return;
         }else if(msg == "space"){
             speed = (speed==0) ? 1 : 0;
             print("New speed: ", speed);
